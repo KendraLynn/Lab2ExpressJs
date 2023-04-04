@@ -1,5 +1,18 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+	"name": "express-sample",
+	"version": "0.1.0",
+	"description": "express hello world",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KendraLynn/Lab2ExpressJs"
+	},
+	"homepage": "https://github.com/KendraLynn/Lab2ExpressJs/blob/main/README.md",
+	"dependencies": {
+		"express": "^4.18.2"
+	}
 }
